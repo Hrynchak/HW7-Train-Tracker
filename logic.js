@@ -76,7 +76,7 @@ console.log("DIFFERENCE IN TIME: " + diffTime);
 
             var nextArrival = moment(nextTrain).format("hh:mm");
 
-            $('#timeCur').html(moment().format("hh:mm"));
+            $('#current-time').html(moment().format("hh:mm"));
 
             $("#train-table > tbody").append("<tr><td>" + trainName + "</td><td>" + destination + "</td><td>" +
                 frequency + "</td><td>" + nextArrival + "</td><td>" + tMinutesTillTrain + "</td></tr>");
