@@ -39,8 +39,6 @@ $("#submit-btn").on("click", function(event) {
     $("#first-train-input").val("");
     $("#frequency-input").val("");
 
-    // Prevents moving to new page
-    return false;
 });
 
 database.ref().on("child_added", function(childSnapshot, prevChildKey) {
